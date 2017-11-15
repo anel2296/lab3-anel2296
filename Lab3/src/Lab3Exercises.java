@@ -7,5 +7,7 @@ public class Lab3Exercises {
 		AnelMartinezGomez.setLocation(900, 430);
 		AnelMartinezGomez.setSize(200, 200);
 		AnelMartinezGomez.setVisible(true);
+		MyPanelClass myPanel = new MyPanelClass();
+        AnelMartinezGomez.getContentPane().add(myPanel);
 	}
 }
