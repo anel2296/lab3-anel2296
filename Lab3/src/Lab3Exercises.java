@@ -2,10 +2,10 @@ import javax.swing.JFrame;
 
 public class Lab3Exercises {
 	public static void main(String[] args) {
-		JFrame myFrame = new JFrame("Hello, world!");
-		//myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		myFrame.setLocation(200, 200);
-		myFrame.setSize(400, 100);
-		myFrame.setVisible(true);
+		JFrame AnelMartinez = new JFrame("Hello, world!");
+	 	AnelMartinez.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		AnelMartinez.setLocation(900, 425);
+		AnelMartinez.setSize(200, 200);
+		AnelMartinez.setVisible(true);
 	}
 }
